@@ -1,0 +1,45 @@
+*, ::before, :after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f1f1f1;
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrousel {
+  position: relative;
+  width:1000px;
+  height: 700px;
+  background-size: cover;
+}
+
+.button{
+  position: absolute;
+  border: solid 1px black;
+  border-radius: 50%;
+  opacity: 0.7;
+  width: 50px;
+  height: 50px;
+}
+
+.radiusbtn{
+  width: 50px;
+  height: 50px;
+}
+
+#btnLeft{
+  left:0;
+  top: 45%;
+}
+
+#btnRight{
+  right:0;
+  top:45%;
+}
